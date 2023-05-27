@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+}
+
+
+img{
+    height: 300px;
+    width: 400px;
+} 
+
+
+.progress{
+    margin-bottom: 20px;
+}
+
+.progress .times,
+.progress, .card-footer, .volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing{
+    background-color: #0b5eb7;
+    color: #fff;
+}
